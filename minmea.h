@@ -19,7 +19,7 @@ extern "C" {
 #include <time.h>
 #include <math.h>
 #ifdef MINMEA_INCLUDE_COMPAT
-#include <compat/minmea_compat_stm32.h>
+#include "./compat/minmea_compat_stm32.h"
 #endif
 
 #ifndef MINMEA_MAX_SENTENCE_LENGTH
